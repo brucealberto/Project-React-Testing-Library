@@ -37,7 +37,7 @@ describe('Teste o Componente "<Pokedex.js />"', () => {
     const total = 7;
     const filterButton = screen.getAllByTestId('pokemon-type-button');
     expect(filterButton).toHaveLength(total);
-    expect(filterButton[0]).toHaveTextContent(/electric/i)
+    expect(filterButton[0]).toHaveTextContent(/electric/i);
   });
 
   it('Teste se a Pokédex contém um botão para resetar o filtro', () => {
